@@ -3,7 +3,7 @@
     background: #2b2f38;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 100vh;
 }
 .tools img {
     width: 30px;
