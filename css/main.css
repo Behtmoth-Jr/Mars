@@ -1,6 +1,5 @@
 main {
     display: flex;
-    flex-direction: column;
 }
 .tools {
     max-width: 450px;
@@ -166,4 +165,8 @@ main {
 }
 .item:hover {
     color: #63eaff;
+}
+.img--drop {
+    max-width: 600px;
+    z-index: 1;
 }
