@@ -1,5 +1,5 @@
 main {
-    display: идщсл;
+    display: flex;
     flex-direction: column;
 }
 .tools {
