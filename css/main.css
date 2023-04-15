@@ -1,9 +1,14 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
 .tools {
     max-width: 450px;
     background: #2b2f38;
     display: flex;
     flex-direction: column;
     height: 100vh;
+    z-index: 2;
 }
 .tools img {
     width: 30px;
