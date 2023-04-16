@@ -14,7 +14,7 @@
 		url('../fonts/gilroy-regular.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('../fonts/gilroy-regular.svg#gilroy-regular') format('svg'); /* Chrome < 4, Legacy iOS */
 }
-p, a, li {
+p, a, li, label {
     font-family: 'Gilroy-Regular';
     color: white;
     text-decoration: none;
