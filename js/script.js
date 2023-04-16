@@ -12,3 +12,7 @@ show.addEventListener('click', function() {
     map.classList.add('hidden');
     });
 
+show.addEventListener('click', function() {
+    image.style.display = "none";
+    });
+
