@@ -169,4 +169,5 @@ main {
 .img--drop {
     z-index: 1;
     height: 100vh;
+    max-width: 40%;
 }
