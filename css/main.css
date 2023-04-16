@@ -162,6 +162,7 @@ main {
 }
 .tools_toolkit--black {
     background: #1c1f26;
+    cursor: pointer;
 }
 .item {
     display: flex;
@@ -178,4 +179,26 @@ main {
     z-index: 1;
     height: 100vh;
     max-width: 40%;
+}
+.analytics_drop {
+    display: flex;
+    height: 100vh;
+}
+.analytics_item {
+    width: 50%;
+    height: 100%;
+    background: #54838b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.analytics_item img {
+    width: 100%;
+}
+.hidden {
+    display: none;
+}
+.tools_toolkit input[type=submit] {
+    display: none;
 }

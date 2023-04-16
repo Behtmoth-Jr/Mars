@@ -1,7 +1,14 @@
-let image = document.getElementById("image");
-let file = document.getElementById("file");
+console.log("GDG");
 
-file.addEventListener('change', function(){
-    image.src = URL.createObjectURL(file.files[0]);
-    image.style.display = "block";
-});
+const elem = document.querySelector("#elem");
+const show = document.querySelector("#show");
+const map = document.querySelector("#map");
+
+show.addEventListener('click', function() {
+    elem.classList.remove('hidden');
+    });
+
+show.addEventListener('click', function() {
+    map.classList.add('hidden');
+    });
+

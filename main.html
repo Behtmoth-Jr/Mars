@@ -120,49 +120,17 @@
                         </div>
                         <div class="tools_toolkit--rectangle"></div>
                     </li>
-                    <li class="tools_toolkit tools_toolkit--black">
-                        <img src="jpg/stats.png" alt="">
-                        <p>Аналитика</p>
-                        <div class="dropdown">
-                            <p class="dropdown--title">
-                                Настройки карты
-                            </p>
-                            <ul class="dropdown--ul ">
-                                <li class="dropdown--li dropdown--li_black">Детали</li>
-                                <li class="dropdown--li ">Слои</li>
-                                <li class="dropdown--li ">Панель тнструментов</li>
-                            </ul>
-                            <div class="dropdown--input">
-                                <input type="text" placeholder="Заголовок" class="dropdown--input_title">
-                                <textarea name="Описание карты" rows="10" class="dropdown--input_about"></textarea>
-                            </div>
-                            <div class="dropdown--btn ">
-                                <a href="" class="">Сохранить</a>
-                            </div>
-                        </div>
-                        <div class="tools_toolkit--rectangle"></div>
+                    <li>
+                        <label class="tools_toolkit tools_toolkit--black">
+                            <img src="jpg/stats.png" alt="">
+                            <p>Аналитика</p>
+                            <input type="submit" id="show" value="show" />
+                        </label>
+
                     </li>
                     <li class="tools_toolkit tools_toolkit--black">
                         <img src="jpg/setting-lines.png" alt="">
                         <p>Интерфейс</p>
-                        <div class="dropdown">
-                            <p class="dropdown--title">
-                                Настройки карты
-                            </p>
-                            <ul class="dropdown--ul ">
-                                <li class="dropdown--li dropdown--li_black">Детали</li>
-                                <li class="dropdown--li ">Слои</li>
-                                <li class="dropdown--li ">Панель тнструментов</li>
-                            </ul>
-                            <div class="dropdown--input">
-                                <input type="text" placeholder="Заголовок" class="dropdown--input_title">
-                                <textarea name="Описание карты" rows="10" class="dropdown--input_about"></textarea>
-                            </div>
-                            <div class="dropdown--btn ">
-                                <a href="" class="">Сохранить</a>
-                            </div>
-                        </div>
-                        <div class="tools_toolkit--rectangle"></div>
                     </li>
                 </ul>
             </div>
@@ -178,7 +146,26 @@
             </div>
         </div>
         <img src="" id="image" style="display: none;" class="img--drop "/>
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8e1e7d3ca77689da1f8d3fd30a4e5ed0f125c110a1f1346f75a3848547e78a9b&amp;source=constructor" width="100%" height="100%" frameborder="0"  style="position: absolute;"></iframe>
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8e1e7d3ca77689da1f8d3fd30a4e5ed0f125c110a1f1346f75a3848547e78a9b&amp;source=constructor" width="100%" height="100%" frameborder="0"  style="position: absolute;" id="map"></iframe>
+        <div class="analytics hidden" id="elem">
+            <div class="analytics_drop">
+                <div class="analytics_item">
+                    <p>gfgfdgdfg</p>
+                    <p>gfgfdgdfg</p>
+                    <p>gfgfdgdfg</p>
+                    <p>gfgfdgdfg</p>
+                    <p>gfgfdgdfg</p>
+                    <p>gfgfdgdfg</p>
+                    <p>gfgfdgdfg</p>
+                    <p>gfgfdgdfg</p>
+                    <p>gfgfdgdfg</p>
+                    <p>gfgfdgdfg</p>
+                </div>
+                <div class="analytics_item">
+                    <img src="jpg/background.png" alt="">
+                </div>
+            </div>
+        </div>
     </main>
     <script>   
         let image = document.getElementById("image");
@@ -189,5 +176,6 @@
             image.style.display = "block";
         });
     </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
