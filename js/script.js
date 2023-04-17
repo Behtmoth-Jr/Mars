@@ -1,4 +1,13 @@
-console.log("GDG");
+console.log("Hello");
+
+const image = document.getElementById("image");
+const file = document.getElementById("file");
+const box = document.getElementById("box");
+
+file.addEventListener('change', function(){
+    image.src = URL.createObjectURL(file.files[0]);
+    box.classList.remove("hidden");
+});
 
 const elem = document.querySelector("#elem");
 const show = document.querySelector("#show");
@@ -13,6 +22,6 @@ show.addEventListener('click', function() {
     });
 
 show.addEventListener('click', function() {
-    image.style.display = "none";
+    box.classList.add("hidden");
     });
 
