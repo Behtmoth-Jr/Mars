@@ -177,8 +177,10 @@ main {
 }
 .img--drop {
     z-index: 1;
-    height: 100vh;
+
     max-width: 40%;
+    height: 100%;
+    align-self: center;
 }
 .analytics_drop {
     display: flex;
