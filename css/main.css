@@ -194,15 +194,20 @@ main {
 .analytics_drop {
     display: flex;
     height: 100vh;
-    padding: 0 15px;
+    align-items: center;
 }
 .analytics_item {
+    height: 60%;
     width: 50%;
-    height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background: #3f4553;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 13px;
+    box-shadow: 4px 9px 17px 1px #000000;
 }
 .analytics_item img {
     width: 100%;
