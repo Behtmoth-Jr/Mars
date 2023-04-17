@@ -187,14 +187,18 @@ main {
 .img--drop img {
     width: 100%;
 }
+.analytics {
+    width: 100%;
+    background: #54838b;
+}
 .analytics_drop {
     display: flex;
     height: 100vh;
+    padding: 0 15px;
 }
 .analytics_item {
     width: 50%;
     height: 100%;
-    background: #54838b;
     display: flex;
     justify-content: center;
     flex-direction: column;
