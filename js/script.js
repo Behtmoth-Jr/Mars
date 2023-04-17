@@ -9,6 +9,10 @@ file.addEventListener('change', function(){
     box.classList.remove("hidden");
 });
 
+file.addEventListener('click', function(){
+    box.classList.remove("hidden");
+});
+
 const elem = document.querySelector("#elem");
 const show = document.querySelector("#show");
 const map = document.querySelector("#map");
