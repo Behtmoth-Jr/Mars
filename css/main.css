@@ -176,11 +176,17 @@ main {
     color: #63eaff;
 }
 .img--drop {
+    background-color: #2d3038;
     z-index: 1;
-
     max-width: 40%;
-    height: 100%;
-    align-self: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    box-shadow: 5px 6px 17px 3px #000000;
+}
+.img--drop img {
+    display: block;
+    width: 100%;
 }
 .analytics_drop {
     display: flex;
