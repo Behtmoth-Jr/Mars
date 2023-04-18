@@ -195,7 +195,7 @@ main {
     align-items: center;
 }
 .analytics_item {
-height: 60%;
+    height: 60%;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -206,6 +206,10 @@ height: 60%;
     padding: 10px;
     border-radius: 13px;
     box-shadow: 4px 9px 17px 1px #000000;
+}
+.analytics_item p {
+    font-size: 28px;
+    margin: 6px;
 }
 .analytics_item img {
     width: 100%;
