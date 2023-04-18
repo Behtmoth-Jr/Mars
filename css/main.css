@@ -111,7 +111,7 @@ main {
 .dropdown--title {
     padding: 10px 0 10px 10px;
     font-size: 30px;
-    background: #3f4553;
+    background: #323742;
 }
 .dropdown--input {
     margin: 10px;
@@ -127,7 +127,7 @@ main {
     padding: 10px;
 }
 .dropdown--li_black {
-    background: #3f4553;
+    background: #323742;
 }
 .dropdown--input_title {
     height: 36px;
