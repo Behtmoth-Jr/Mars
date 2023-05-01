@@ -46,4 +46,4 @@ back.addEventListener('click', function(){
     map.classList.remove('hidden');
     box.classList.remove("hidden");
     });
-z
+
